@@ -1,7 +1,8 @@
 # Credit Pull Microservice — Railway-ready Dockerfile
-# Python 3.9 + system deps for Playwright Chromium + gunicorn
+# Python 3.11 + system deps for Playwright Chromium + gunicorn
+# (3.10+ required because creditpull_api.py uses PEP 604 `Client | None` syntax)
 
-FROM python:3.9-slim
+FROM python:3.11-slim
 
 # System packages that Playwright Chromium needs
 RUN apt-get update && apt-get install -y --no-install-recommends \
