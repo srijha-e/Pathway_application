@@ -225,9 +225,12 @@ def _check_subscription_required(page) -> bool:
       1. If #CreditScore section is visible → report rendered normally
       2. Otherwise, look for IIQ's upgrade UI markers
     """
-    # Happy case: the actual report sections are present
+    # Happy case: the actual report sections are present. Be generous
+    # with the timeout — headless Chromium can take 10+ seconds to render
+    # the AngularJS report page, and a too-short wait here causes false
+    # positives on the upgrade fallback below.
     try:
-        if page.locator("#CreditScore").is_visible(timeout=2000):
+        if page.locator("#CreditScore").is_visible(timeout=15000):
             return False
     except Exception:
         pass
