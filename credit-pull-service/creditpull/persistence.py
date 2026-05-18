@@ -13,20 +13,19 @@ from __future__ import annotations
 
 import re
 from datetime import date
-from decimal import Decimal, InvalidOperation
 from typing import Any, Optional
 
 
 # ── Type coercion helpers ─────────────────────────────────────────────
-def _to_decimal(s: Optional[str]) -> Optional[Decimal]:
+def _to_decimal(s: Optional[str]) -> Optional[float]:
     if s is None or s == "":
         return None
     cleaned = re.sub(r"[\$,\s]", "", str(s))
     if cleaned in ("", "-"):
         return None
     try:
-        return Decimal(cleaned)
-    except InvalidOperation:
+        return float(cleaned)
+    except ValueError:
         return None
 
 
