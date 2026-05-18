@@ -53,10 +53,8 @@ SECURITY_Q_TIMEOUT     = 10
 ANSWER_WAIT_TIMEOUT    = 1200       # 20 min for user to answer a security Q
 DASHBOARD_SETTLE       = 3
 REPORT_RENDER_WAIT     = 5
-SCROLL_SETTLE_MS       = 4000
+SCROLL_SETTLE_MS       = 2500
 MAX_SCROLL_ATTEMPTS    = 30
-SCROLL_STABILITY_NEEDED = 3
-FIRST_ACCOUNT_TIMEOUT_MS = 30000
 MAX_SECURITY_QS        = 10         # safety cap on TOTAL security Q rounds (covers multi-Q flows + retries)
 MAX_QUESTION_ATTEMPTS  = 3          # wrong-answer retries on the same question before failing
 
@@ -262,84 +260,22 @@ def _check_subscription_required(page) -> bool:
 
 
 # ── Scroll loop for infinite-scroll accounts ──────────────────────────
-def _get_target_account_count(page) -> Optional[int]:
-    """Read 'Total Accounts' from the Summary section as a scroll target.
-
-    Returns the maximum value across the three bureau columns, or None if
-    the summary row isn't readable. Falls back to stability-based detection
-    when None.
-    """
-    try:
-        return page.evaluate(
-            """() => {
-                const labels = document.querySelectorAll('#Summary td.label, .rpt_content_table td.label');
-                for (const lbl of labels) {
-                    if (lbl.textContent.trim().toLowerCase() === 'total accounts') {
-                        const row = lbl.closest('tr');
-                        if (!row) continue;
-                        let max = 0;
-                        for (const c of row.querySelectorAll('td.info')) {
-                            const n = parseInt(c.textContent.trim(), 10);
-                            if (!isNaN(n) && n > max) max = n;
-                        }
-                        return max > 0 ? max : null;
-                    }
-                }
-                return null;
-            }"""
-        )
-    except Exception:
-        log.warning("creditpull: failed to read target account count", exc_info=True)
-        return None
-
-
-def _scroll_until_stable(page, target: Optional[int] = None) -> int:
-    log.info(f"creditpull: starting scroll loop (target={target})")
-
-    # Wait for the first account table to actually render before counting
-    # stability — otherwise the loop can latch onto the empty initial state
-    # in slower headless renders.
-    try:
-        page.locator("table.crPrint").first.wait_for(timeout=FIRST_ACCOUNT_TIMEOUT_MS)
-    except PWTimeout:
-        log.warning("creditpull: no account tables appeared within timeout")
-        return 0
-
+def _scroll_until_stable(page) -> int:
+    log.info("creditpull: starting scroll loop for account history")
     prev = -1
     stable = 0
     for attempt in range(1, MAX_SCROLL_ATTEMPTS + 1):
-        # Belt-and-suspenders scroll: window.scrollTo for position, plus
-        # mouse.wheel to generate a real wheel event that AngularJS's
-        # infinite-scroll directive will reliably react to (synthetic
-        # scrollTo alone can be swallowed in headless Chromium).
         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        try:
-            page.mouse.wheel(0, 1500)
-        except Exception:
-            pass
         page.wait_for_timeout(SCROLL_SETTLE_MS)
         current = page.locator("table.crPrint").count()
-        log.info(f"creditpull scroll: attempt {attempt} → {current} accounts (target={target})")
-
-        # Exit early if we've reached the known target.
-        if target is not None and current >= target:
-            return current
-
+        log.info(f"creditpull scroll: attempt {attempt} → {current} accounts")
         if current == prev:
             stable += 1
-            if stable >= SCROLL_STABILITY_NEEDED:
-                if target is not None and current < target:
-                    log.warning(
-                        f"creditpull: scroll stable at {current} but target was "
-                        f"{target} — page may not be loading more accounts"
-                    )
+            if stable >= 2:
                 return current
         else:
             stable = 0
             prev = current
-
-    if target is not None and prev < target:
-        log.warning(f"creditpull: hit MAX_SCROLL_ATTEMPTS with {prev}/{target} accounts")
     return prev
 
 
@@ -547,9 +483,7 @@ def run_credit_pull(sb, report_id: str) -> None:
                 return
 
             # ── Scroll to load all accounts ──────────────────────────
-            target = _get_target_account_count(page)
-            log.info(f"creditpull[{report_id}] target account count from summary: {target}")
-            final_count = _scroll_until_stable(page, target=target)
+            final_count = _scroll_until_stable(page)
             log.info(f"creditpull[{report_id}] loaded {final_count} accounts")
 
             # ── Capture rendered HTML ────────────────────────────────
