@@ -1,0 +1,120 @@
+/* Credit Pull module styles */
+
+/* ── Subject list ─────────────────────────────────────────────────── */
+.cp-subject-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background: #fff;
+}
+.cp-subject-row:hover { background: #f8fafc; }
+.cp-subject-row .small { font-size: 12px; color: #64748b; }
+
+/* ── Status indicator ─────────────────────────────────────────────── */
+.cp-status-block {
+  padding: 16px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  margin: 12px 0;
+}
+.cp-status-label {
+  font-weight: 600;
+  color: #334155;
+}
+
+/* ── Credentials retry error ─────────────────────────────────────── */
+.cp-form-error {
+  color: #b91c1c;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+/* ── Security question form ───────────────────────────────────────── */
+.cp-security-q {
+  margin-top: 16px;
+  padding: 16px;
+  background: #fff7e6;
+  border: 1px solid #facc15;
+  border-radius: 6px;
+}
+.cp-security-q h4 { margin: 0 0 12px 0; color: #92400e; }
+.cp-security-q label { display: block; padding: 4px 0; }
+
+/* ── Report display ───────────────────────────────────────────────── */
+.cp-report-header {
+  display: flex;
+  gap: 32px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 16px;
+}
+.cp-report-header span { color: #475569; }
+
+.cp-section { margin-top: 24px; }
+.cp-section h4 {
+  background: #1e293b;
+  color: #fff;
+  padding: 10px 16px;
+  margin: 0 0 8px 0;
+  border-radius: 4px 4px 0 0;
+  font-size: 16px;
+}
+
+.cp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.cp-table th, .cp-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+.cp-table th { background: #f8fafc; font-weight: 600; }
+/* Bureau headers — extra specificity (.cp-table th.foo) so they override the
+   generic .cp-table th background. */
+.cp-table th.cp-bureau-th    { color: #fff; font-weight: 600; }
+.cp-table th.cp-bureau-th-TU { background: #5dade2; color: #fff; }
+.cp-table th.cp-bureau-th-EX { background: #2c3e50; color: #fff; }
+.cp-table th.cp-bureau-th-EQ { background: #c0392b; color: #fff; }
+
+/* ── Account card ─────────────────────────────────────────────────── */
+.cp-account-card {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-top: 14px;
+  overflow: hidden;
+}
+.cp-account-card-header {
+  background: #1e293b;
+  color: #fff;
+  padding: 8px 14px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ── Payment grid ────────────────────────────────────────────────── */
+.cp-payment-grid {
+  font-size: 11px;
+}
+.cp-payment-grid th, .cp-payment-grid td {
+  padding: 4px 6px;
+  text-align: center;
+  min-width: 28px;
+}
+.cp-payment-grid td.ok   { background: #22c55e; color: #fff; }
+.cp-payment-grid td.late { background: #f59e0b; color: #fff; }
+.cp-payment-grid td.bad  { background: #ef4444; color: #fff; }
+
+/* ── Risk factors list ────────────────────────────────────────────── */
+.cp-risk-factors { padding: 12px 16px; background: #fafafa; }
+.cp-risk-factors > div { margin-bottom: 12px; }
+.cp-risk-factors ul { margin: 4px 0 0 20px; padding: 0; }

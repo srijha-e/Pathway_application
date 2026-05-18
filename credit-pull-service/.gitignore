@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Local env (NEVER commit secrets)
+.env
+.env.local
+
+# Tooling
+.vscode/
+.idea/
+.DS_Store
+
+# Test/preview artifacts
+_preview/
+_debug/
+*.log

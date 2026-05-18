@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Credit Pull</title>
+  <link rel="stylesheet" href="/static/css/creditpull.css" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #f8fafc;
+      margin: 0; padding: 24px;
+      color: #1e293b;
+    }
+    .card {
+      background: #fff; border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      padding: 24px;
+      max-width: 1200px; margin: 0 auto;
+    }
+    .row { display: flex; gap: 16px; }
+    .row > div { flex: 1; }
+    .row-tight { display: flex; justify-content: space-between; align-items: center; }
+    label { display: block; font-size: 13px; font-weight: 500; margin-bottom: 4px; color: #475569; }
+    input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="date"] {
+      width: 100%; box-sizing: border-box; padding: 8px 10px;
+      border: 1px solid #cbd5e1; border-radius: 4px; font-size: 14px;
+    }
+    button {
+      padding: 8px 16px; border: none; border-radius: 4px;
+      background: #2563eb; color: white; font-weight: 500; cursor: pointer; font-size: 14px;
+    }
+    button.secondary { background: transparent; color: #475569; border: 1px solid #cbd5e1; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .actions { display: flex; gap: 10px; margin-top: 12px; }
+    .muted { color: #64748b; font-size: 13px; }
+    .hidden { display: none !important; }
+    h2, h3, h4 { margin-top: 0; }
+    #cpAuthError {
+      max-width: 600px; margin: 80px auto;
+      padding: 20px; background: #fef2f2; border: 1px solid #fecaca;
+      border-radius: 8px; color: #b91c1c;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Auth error placeholder (shown if API key missing) -->
+<div id="cpAuthError" class="hidden">
+  <strong>Missing API key.</strong>
+  <p>This page must be opened with an API key in the URL, e.g. <code>?key=YOUR-API-KEY</code>.
+     Please access this page through your application's "Credit Pull" link.</p>
+</div>
+
+<div id="cpApp" class="card hidden">
+  <h2 style="margin-top:0">Credit Pull</h2>
+
+  <!-- View 1: Subject list -->
+  <div id="cpSubjectList">
+    <div class="row-tight" style="margin-bottom:12px;">
+      <h3 style="margin:0">Subjects</h3>
+      <button id="cpBtnNewSubject">+ New Subject</button>
+    </div>
+    <div id="cpSubjectsContainer"></div>
+  </div>
+
+  <!-- View 2: New subject form -->
+  <div id="cpNewSubjectForm" class="hidden">
+    <h3>New Subject</h3>
+    <div class="row">
+      <div><label>Full Name *</label><input id="cpInputName" type="text" /></div>
+      <div><label>Date of Birth</label><input id="cpInputDOB" type="date" /></div>
+    </div>
+    <div class="row" style="margin-top:8px;">
+      <div><label>SSN last 4</label><input id="cpInputSSN" type="text" maxlength="4" /></div>
+      <div><label>Email</label><input id="cpInputEmail" type="email" /></div>
+    </div>
+    <div class="row" style="margin-top:8px;">
+      <div><label>Phone</label><input id="cpInputPhone" type="tel" /></div>
+    </div>
+    <div class="actions" style="margin-top:14px;">
+      <button id="cpBtnSaveSubject">Save Subject</button>
+      <button id="cpBtnCancelSubject" class="secondary">Cancel</button>
+    </div>
+  </div>
+
+  <!-- View 3: Pull report form -->
+  <div id="cpPullForm" class="hidden">
+    <h3>Pull Credit Report</h3>
+    <p class="muted">Subject: <strong><span id="cpPullSubjectName"></span></strong></p>
+    <p id="cpPullFormError" class="cp-form-error hidden"></p>
+    <div class="row">
+      <div><label>IIQ Username *</label><input id="cpInputIIQUsername" type="text" autocomplete="off" /></div>
+      <div><label>IIQ Password *</label><input id="cpInputIIQPassword" type="password" autocomplete="new-password" /></div>
+    </div>
+    <p class="muted" style="margin-top:8px;">Credentials are used in-memory for the scrape and never stored.</p>
+    <div class="actions">
+      <button id="cpBtnStartPull">Start Pull</button>
+      <button id="cpBtnCancelPull" class="secondary">Cancel</button>
+    </div>
+  </div>
+
+  <!-- View 4: Status / security Q -->
+  <div id="cpStatusView" class="hidden">
+    <h3>Pulling Credit Report</h3>
+    <p class="muted">Subject: <strong><span id="cpStatusSubjectName"></span></strong></p>
+    <div class="cp-status-block">
+      <span class="cp-status-label" id="cpStatusLabel">Initializing...</span>
+    </div>
+    <div id="cpSecurityQForm" class="cp-security-q hidden">
+      <h4 id="cpSecurityQText"></h4>
+      <p id="cpSecurityQError" class="cp-form-error hidden"></p>
+      <div id="cpSecurityQTextInput" class="hidden">
+        <input id="cpSecurityQAnswerText" type="text" />
+      </div>
+      <div id="cpSecurityQChoiceInput" class="hidden"></div>
+      <div class="actions" style="margin-top:10px;">
+        <button id="cpBtnSubmitAnswer">Submit Answer</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- View 5: Report display -->
+  <div id="cpReportView" class="hidden">
+    <div class="row-tight" style="margin-bottom:8px;">
+      <h3 style="margin:0">Credit Report</h3>
+      <button id="cpBtnBackToSubjects" class="secondary">← Back to Subjects</button>
+    </div>
+    <div id="cpReportHeader"></div>
+    <div id="cpReportPersonalInfo"   class="cp-section"></div>
+    <div id="cpReportCreditScore"    class="cp-section"></div>
+    <div id="cpReportSummary"        class="cp-section"></div>
+    <div id="cpReportAccountHistory" class="cp-section"></div>
+  </div>
+</div>
+
+<script src="/static/js/creditpull.js"></script>
+</body>
+</html>

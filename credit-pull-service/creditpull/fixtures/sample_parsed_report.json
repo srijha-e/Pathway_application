@@ -1,0 +1,4131 @@
+{
+  "header": {
+    "reference_number": "M10889879",
+    "report_date": "08/29/2023",
+    "subject_name": "ED HEAT"
+  },
+  "personal_information": [
+    {
+      "field": "Credit Report Date",
+      "transunion": "08/29/2023",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Name",
+      "transunion": "ED HEAT",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Also Known As",
+      "transunion": null,
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Former",
+      "transunion": null,
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Date of Birth",
+      "transunion": "11/1/1985",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Current Address(es)",
+      "transunion": "4163 WHITE OAK DR MISSOURI CITY, MO 64072",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Previous Address(es)",
+      "transunion": null,
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Employers",
+      "transunion": null,
+      "experian": null,
+      "equifax": null
+    }
+  ],
+  "credit_score": {
+    "scores": {
+      "transunion": {
+        "score": 768,
+        "lender_rank": "Great",
+        "score_scale": "300-850"
+      },
+      "experian": {
+        "score": null,
+        "lender_rank": null,
+        "score_scale": "300-850"
+      },
+      "equifax": {
+        "score": null,
+        "lender_rank": null,
+        "score_scale": "300-850"
+      }
+    },
+    "risk_factors": {
+      "transunion": [
+        "The date that you opened your oldest account is too recent",
+        "Lack of sufficient credit history",
+        "Lack of sufficient relevant real estate account information",
+        "The total of all balances on your open accounts is too high"
+      ],
+      "experian": [],
+      "equifax": []
+    }
+  },
+  "summary": [
+    {
+      "field": "Total Accounts",
+      "transunion": "32",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Open Accounts",
+      "transunion": "19",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Closed Accounts",
+      "transunion": "13",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Delinquent",
+      "transunion": "0",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Derogatory",
+      "transunion": "0",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Collection",
+      "transunion": "0",
+      "experian": "0",
+      "equifax": "0"
+    },
+    {
+      "field": "Balances",
+      "transunion": "$127,765.00",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Payments",
+      "transunion": "$995.00",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Public Records",
+      "transunion": "0",
+      "experian": null,
+      "equifax": null
+    },
+    {
+      "field": "Inquiries(2 years)",
+      "transunion": "0",
+      "experian": null,
+      "equifax": null
+    }
+  ],
+  "accounts": [
+    {
+      "creditor_name": "JPMCB CARD",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "41472865****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Flexible spending credit card",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$25.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "04/22/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$297.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$5,625.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$6,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "07/22/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "07/22/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "07/18/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "JPMCB CARD",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "41858014****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Credit Card",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "09/17/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$1,900.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$7,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "07/16/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "01/21/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "01/21/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-06": "OK",
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-08": "OK",
+          "2021-07": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "MACYS/CBNA",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "47026****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Charge account",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "10/27/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/27/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "02/21/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "02/21/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CAPITAL ONE",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "48623166****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Credit Card",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "03/31/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$40.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$2,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/14/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "09/27/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "09/27/2017",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-08": "OK",
+          "2021-07": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "KOHLS/CAPONE",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "59744**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Charge account",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "02/28/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$1,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "04/21/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "02/18/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "02/18/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CB/VICSCRT",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "8X2**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Charge account",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "11/27/2020",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$118.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$870.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "04/03/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "02/15/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "02/15/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-08": "OK",
+          "2021-07": "OK",
+          "2021-06": "OK",
+          "2021-05": "OK",
+          "2021-04": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CB/NY&CO",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "5X8**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Charge account",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "06/10/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$50.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$700.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "02/11/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "12/24/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "12/24/2022",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CB/MAURICES",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "8X3X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Charge account",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "11/03/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$1,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "12/19/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "11/03/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "11/03/2022",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {},
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "STU LN TRUST",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Maker",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$100.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "10/22/2018",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$16,651.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "240",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$15,820.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/12/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SALLIE MAE",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X6X1X0X9X1X0X****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$84.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "11/12/2019",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$12,652.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$12,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/12/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CITIBANK STU",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Maker",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$120.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "10/31/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$19,860.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "240",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$17,425.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/12/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SALLIE MAE",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X6X1X0X9X1X0X****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$54.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "11/12/2019",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$8,134.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$8,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/12/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SALLIE MAE",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X6X1X0X9X1X0X****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$33.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "11/13/2018",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$5,250.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$5,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/12/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SALLIE MAE",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X6X1X0X9X1X0X****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$37.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "10/22/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$1,408.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$5,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/12/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "DISCOVER BNK",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Maker",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$156.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "10/22/2016",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$14,128.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "144",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$14,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/12/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "DISCOVER BNK",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Maker",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$247.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "10/19/2015",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$25,970.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "144",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$22,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/12/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "USDOE/GLELSI",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "6X7X****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$125.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "08/31/2020",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$17,436.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$18,025.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/20/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-08": "OK",
+          "2021-07": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SALLIE MAE",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X6X1X0X9X1X0X****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$14.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "11/06/2016",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$3,179.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$3,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/30/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "06/12/2023",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "ITHICA CLLG",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X0X6XPX****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Open",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "10/31/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$2,800.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "120",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$4,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "06/09/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "06/09/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-09": "OK",
+          "2021-08": "OK",
+          "2021-07": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SYNCB/WLMRTD",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "60113724****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Credit Card",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "06/11/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$2,550.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "07/18/2023",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account closed by consumer",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "07/11/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2023-06": "OK",
+          "2023-05": "OK",
+          "2023-04": "OK",
+          "2023-03": "OK",
+          "2023-02": "OK",
+          "2023-01": "OK",
+          "2022-12": "OK",
+          "2022-11": "OK",
+          "2022-10": "OK",
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CAPITAL ONE",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "51780908****",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Revolving",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Credit Card",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "07/31/2016",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$39.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "10/25/2016",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account closed by consumer",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "10/25/2016",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2016-09": "OK",
+          "2016-08": "OK",
+          "2016-07": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SLC CONDUIT",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "11/10/2019",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$12,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "10/12/2022",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SLC CONDUIT",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "10/15/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$5,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "10/12/2022",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SLC CONDUIT",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "08/31/2016",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$3,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "10/12/2022",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SLC CONDUIT",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "11/10/2019",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$8,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "10/12/2022",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SLC CONDUIT",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "09/17/2018",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$5,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "10/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "10/12/2022",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2022-09": "OK",
+          "2022-08": "OK",
+          "2022-07": "OK",
+          "2022-06": "OK",
+          "2022-05": "OK",
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SLC CONDUIT",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "09/15/2015",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$2,625.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Current",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "05/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "05/31/2022",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "04/30/2022",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2022-04": "OK",
+          "2022-03": "OK",
+          "2022-02": "OK",
+          "2022-01": "OK",
+          "2021-12": "OK",
+          "2021-11": "OK",
+          "2021-10": "OK",
+          "2021-09": "OK",
+          "2021-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "SLC CONDUIT",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "09/30/2019",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "300",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$8,349.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Unknown",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "08/31/2021",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Account information disputed by consumer, meets FCRA requirements",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "08/31/2021",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": "08/24/2021",
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {
+          "2021-06": "OK",
+          "2020-06": "OK"
+        },
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CITIBANK STU",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Closed",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "08/21/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$5,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Unknown",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "11/30/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "11/30/2017",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {},
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CITISTUDNTLN",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Transferred",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "08/04/2020",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$3,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Unknown",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "03/31/2021",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Transferred to another lender",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "03/31/2021",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {},
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CITISTUDNTLN",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Transferred",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "08/04/2020",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$8,500.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Unknown",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "03/31/2021",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Transferred to another lender",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "03/31/2021",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {},
+        "experian": {},
+        "equifax": {}
+      }
+    },
+    {
+      "creditor_name": "CITISTUDNTLN",
+      "fields": [
+        {
+          "field": "Account #",
+          "transunion": "9X7X**",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type",
+          "transunion": "Installment",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Type - Detail",
+          "transunion": "Educational",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Bureau Code",
+          "transunion": "Individual",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Account Status",
+          "transunion": "Transferred",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Monthly Payment",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Opened",
+          "transunion": "08/17/2020",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Balance",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "No. of Months (terms)",
+          "transunion": "0",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "High Credit",
+          "transunion": "$6,000.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Credit Limit",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Past Due",
+          "transunion": "$0.00",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Payment Status",
+          "transunion": "Unknown",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Last Reported",
+          "transunion": "03/31/2021",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Comments",
+          "transunion": "Transferred to another lender",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date Last Active",
+          "transunion": "03/31/2021",
+          "experian": null,
+          "equifax": null
+        },
+        {
+          "field": "Date of Last Payment",
+          "transunion": null,
+          "experian": null,
+          "equifax": null
+        }
+      ],
+      "payment_history": {
+        "transunion": {},
+        "experian": {},
+        "equifax": {}
+      }
+    }
+  ]
+}
