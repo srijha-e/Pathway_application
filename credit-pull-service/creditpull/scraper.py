@@ -53,8 +53,10 @@ SECURITY_Q_TIMEOUT     = 10
 ANSWER_WAIT_TIMEOUT    = 1200       # 20 min for user to answer a security Q
 DASHBOARD_SETTLE       = 3
 REPORT_RENDER_WAIT     = 5
-SCROLL_SETTLE_MS       = 2500
+SCROLL_SETTLE_MS       = 4000
 MAX_SCROLL_ATTEMPTS    = 30
+SCROLL_STABILITY_NEEDED = 3
+FIRST_ACCOUNT_TIMEOUT_MS = 30000
 MAX_SECURITY_QS        = 10         # safety cap on TOTAL security Q rounds (covers multi-Q flows + retries)
 MAX_QUESTION_ATTEMPTS  = 3          # wrong-answer retries on the same question before failing
 
@@ -259,6 +261,16 @@ def _check_subscription_required(page) -> bool:
 # ── Scroll loop for infinite-scroll accounts ──────────────────────────
 def _scroll_until_stable(page) -> int:
     log.info("creditpull: starting scroll loop for account history")
+
+    # Wait for the first account table to actually render before counting
+    # stability — otherwise the loop can latch onto the empty initial state
+    # (e.g. 2 in 2 in 2 → stable, exit with 2) in slower headless renders.
+    try:
+        page.locator("table.crPrint").first.wait_for(timeout=FIRST_ACCOUNT_TIMEOUT_MS)
+    except PWTimeout:
+        log.warning("creditpull: no account tables appeared within timeout")
+        return 0
+
     prev = -1
     stable = 0
     for attempt in range(1, MAX_SCROLL_ATTEMPTS + 1):
@@ -268,7 +280,7 @@ def _scroll_until_stable(page) -> int:
         log.info(f"creditpull scroll: attempt {attempt} → {current} accounts")
         if current == prev:
             stable += 1
-            if stable >= 2:
+            if stable >= SCROLL_STABILITY_NEEDED:
                 return current
         else:
             stable = 0
